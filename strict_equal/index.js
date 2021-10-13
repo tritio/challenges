@@ -8,4 +8,4 @@ function strictEqual(a, b) {
   return Object.is(a, b);
 }
 
-console.log(strictEqual("asd", "asd"));
+console.log(strictEqual(0, -0));
